@@ -1,2 +1,2 @@
-import TRT
-TRT.UD()
+import trt
+trt.ud()
