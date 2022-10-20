@@ -1,4 +1,4 @@
-import os,time,platform
+Jimport os,time,platform
 os.system('clear')
 print('[•] Checking Updates...')
 os.system('git pull')
@@ -11,7 +11,7 @@ bit = platform.architecture()[0]
 if bit=='64bit':
     print(f'{red}[•] Join Over Facebook Group {white}')
     os.system('xdg-open https://facebook.com/groups/412423917720633//')
-    import TRT1
+    import TRT
 elif bit=='32bit':
     print(f'{green}[•] subscribe krne Walo Ko Approvel Meli Ga {white}')
     os.system('xdg-open https://youtube.com/channel/UCm5PL8Gdg0i0BhR0HVOC5Pg/')
