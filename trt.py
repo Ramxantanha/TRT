@@ -1,4 +1,4 @@
-import os,time,platform
+Jimport os,time,platform
 os.system('clear')
 print('[•] Checking Updates...')
 os.system('git pull')
@@ -12,7 +12,7 @@ if bit=='64bit':
     print(f'{red}[•] Join Over Facebook Group {white}')
     os.system('xdg-open https://facebook.com/groups/412423917720633//')
     time.sleep(0.05)
-    import trt2
+    import trt1
 elif bit=='32bit':
     import trt32
 else:
