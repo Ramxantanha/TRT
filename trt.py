@@ -1,8 +1,12 @@
 import os,platform
 os.system('git pull')
- 
+
 trt=platform.architecture()[0]
 if trt=="32bit":
-    __import__("t")
+    print('Sorry 32 Bit Not Saported...')
 elif trt=="64bit":
-    __import__("trt1")
+    __import__("trt_enc")
+
+
+
+               
